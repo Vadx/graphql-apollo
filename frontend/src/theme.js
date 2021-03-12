@@ -14,7 +14,7 @@ export const theme = createMuiTheme({
       contrastText: '#fff'
     },
     text: {
-      primary: '#27729D'
+      primary: '#333'
     },
     action: {
       active: '#205E8B'
@@ -40,7 +40,7 @@ export const theme = createMuiTheme({
     },
     MuiTextField: {
       root: {
-        background: '#F1F9FF'
+        // background: '#F1F9FF'
       }
     },
     MuiSelect: {
@@ -55,6 +55,7 @@ export const theme = createMuiTheme({
     }
   },
   typography: {
+    fontSize: 15,
     fontFamily: [
       '-apple-system',
       'BlinkMacSystemFont',
